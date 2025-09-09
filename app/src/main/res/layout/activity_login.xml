@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logintela"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/editTextTextNome"
+        android:layout_width="213dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/changa_one"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <Switch
+        android:id="@+id/cadastro_switch"
+        android:layout_width="158dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/changa_one"
+        android:text="@string/cadastrar"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:thumbTint="@android:color/holo_orange_light"
+        android:trackTint="@android:color/holo_orange_light"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="212dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/changa_one"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/cadastro_switch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="452dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:fontFamily="@font/changa_one"
+        android:onClick="logar"
+        android:text="@string/ok"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextEmail"
+        android:layout_width="210dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/white"
+        android:drawableEnd="@drawable/ic_email"
+        android:drawableRight="@drawable/ic_email"
+        android:drawableTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/changa_one"
+        android:hint="E-mail"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:visibility="visible"
+        app:boxStrokeColor="@color/cardview_dark_background"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="137dp"
+        android:layout_height="121dp"
+        android:src="@drawable/star1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.878" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="137dp"
+        android:layout_height="121dp"
+        android:src="@drawable/star1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.878" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="66dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="13dp"
+        android:src="@drawable/star2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.76" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

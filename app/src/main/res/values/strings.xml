@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Caça Níquel</string>
+    <string name="ok">Enviar</string>
+    <string name="cadastrar">Cadastre-se</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_pass">Senha</string>
+</resources>
