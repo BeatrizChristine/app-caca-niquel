@@ -34,3 +34,8 @@ Principais características:
    app/google-services.json
    ```
 5. Execute o aplicativo em um emulador ou dispositivo físico.
+
+## 📄 Licença
+Este projeto foi desenvolvido por **Beatriz Christine Azevedo Batista**  
+e está licenciado sob a **Licença MIT** — veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
