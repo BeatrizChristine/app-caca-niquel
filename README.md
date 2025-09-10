@@ -9,7 +9,7 @@ O **Caça Níquel** reproduz a lógica de uma máquina caça-níquel clássica, 
 
 Principais características:
 -  **Aplicativo Android nativo**  
--  **Lógica de randomização** para simular o giro dos rolos  
+-  **Lógica de randomização** para gerar números aleatórios 
 -  **Integração com Firebase** para autenticação e armazenamento de dados  
 -  **Arquitetura modular** e código organizado para manutenção e expansão futura  
 
