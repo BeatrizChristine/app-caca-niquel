@@ -1,10 +1,10 @@
 # 🎰 Caça Níquel
 
-Aplicativo Android de simulação de **caça-níquel**, desenvolvido em **2021** como parte do **Trabalho de Conclusão de Curso (TCC)** de um aluno, no **Instituto Federal do Amazonas (IFAM)**.  
+Aplicativo Android de simulação de **caça-níquel**, desenvolvido em **2021** como parte do **Trabalho de Conclusão de Curso (TCC)** de um aluno no **Instituto Federal do Amazonas (IFAM)**.  
 O projeto demonstra conhecimentos em **desenvolvimento mobile**, **programação orientada a objetos**, **integração com serviços externos** e **boas práticas de organização de código**.
 
 ## Sobre o Projeto
-O **Caça Níquel** reproduz a lógica de uma máquina caça-níquel clássica, permitindo que o usuário interaja com uma interface simples e intuitiva.  
+O Caça Níquel reproduz a lógica de uma máquina caça-níquel clássica, oferecendo uma interface simples e intuitiva para o usuário interagir com o jogo e experimentar a mecânica de apostas e prêmios.
 
 ## Funcionalidades 
 - **Sistema de autenticação Firebase**
@@ -19,8 +19,7 @@ O **Caça Níquel** reproduz a lógica de uma máquina caça-níquel clássica, 
   - Possibilidade de implementar ranking no futuro.
 - **Áudio integrado**
   - Trilha sonora durante o jogo.
-  - Som implementado para GameOver.
-  - Som implementado para Vitória.
+  - Efeitos sonoros para Game Over e Vitória.
 
 ## Tecnologias Utilizadas
 - **Android Studio**  
